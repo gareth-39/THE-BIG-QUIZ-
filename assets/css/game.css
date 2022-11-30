@@ -101,6 +101,11 @@ body {
   
 }
 
+#click {
+    color: yellow;
+    font-size: 2.5rem;
+}
+
 /* media queries for mobile*/
 
 @media screen and (max-width: 784px) {
