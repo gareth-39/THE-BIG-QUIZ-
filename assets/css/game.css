@@ -1,0 +1,142 @@
+/* Game page css*/
+
+body {
+    color: yellow;
+    background-color: black;
+    overflow: hidden;
+}
+
+.game-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#question {
+    font-size: 3.3rem;
+    color: yellow;
+    text-align: center;
+    
+    margin-bottom: 1rem;
+
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.9rem;
+    width: 100%;
+    border-radius: 4px;
+    background: blue;
+    font-size: 3rem;
+    min-width: 80rem;
+    height: 50px;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: #fff;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+/* Heads up display */
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+ /* Progress bar css*/
+ 
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid yellow;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    width: 0%;
+    background: blue;
+}
+
+/*Home button css*/
+
+.home-btn {
+    width: 15rem;
+    height: 3rem;
+    padding-bottom: 5.5rem;
+  
+}
+
+/* media queries for mobile*/
+
+@media screen and (max-width: 784px) {
+    .choice-container {
+        min-width: 35rem;
+        height: 50px;
+       
+        
+    }
+    
+}
+
+/* Media queries for tablet*/
+
+@media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+/* Media queries for smaller screens*/
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+   #game {
+      width: 100%;
+    }
+  }

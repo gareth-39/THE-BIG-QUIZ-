@@ -1,0 +1,204 @@
+/*Css for index.html and main Css for the Quiz*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+body {
+    background-color: yellow;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Nova Square';
+}
+
+#heading {
+    border-style: solid;
+    background-color: black;
+   
+}
+#click {
+    color: yellow;
+    padding: 0;
+    background-color: blue;
+}
+
+h1 {
+    font-size: 6.4rem;
+    color: blue;
+    text-align: center;
+    font-stretch: expanded;
+    
+}
+
+h3 {
+    font-size: 4.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+    
+.container {
+    width: 100vw;
+    height: 90vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 80rem;
+    max-width: 0 ;
+    padding: 0.1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home {
+    margin-top: 0;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* For the buttons on each page */
+
+.btn {
+    font-size: 2.6rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: blue;
+    border-style: solid;
+    background-color: black;
+    border-radius: 4px;
+
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+
+}
+
+
+
+/* Css for End.html*/
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+    
+
+}
+
+/* Css for Highscore.html*/
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    
+}
+
+input::placeholder {
+    color: blue;
+}
+
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+
+#end-text {
+    font-size: 2.4rem;
+    text-align: center;
+    color: black;
+    margin-left: -9%;
+}
+
+
+
+.hs-container {
+font-size: 6.4rem;
+color: blue;
+text-align: center;
+font-stretch: expanded;
+
+}
+
+#hs-heading {
+    background-color: black;
+}
+
+.highscore {
+    font-size: 4.4rem;
+    text-align: center;
+    color: blue;
+   
+    font-family: 'Nova Square';
+    
+}
+
+/* save username button */
+.save {
+    font-size: 2.6rem;
+    padding: 2rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: blue;
+    border-style: solid;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Lenght of saved name for highscore*/
+
+#error{
+    font-size: 1.6rem;
+   
+    
+  }
+
+
+/* media queries for mobile on end.html*/
+
+@media screen and (max-width: 480px) {
+    .end-form-container {
+      width: 100%;
+      
+      
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    
+    h1 {
+        font-size: 5rem;
+    }
+}
+
