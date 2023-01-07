@@ -1,22 +1,19 @@
 /* All the js for the end game page */
-
 const username = document.querySelector('#username');
 const saveScoreBtn = document.querySelector('#saveScoreBtn');
 const finalScore = document.querySelector('#finalScore');
-const mostRecentScore =localStorage.getItem('mostRecentScore');
-
+const mostRecentScore = localStorage.getItem('mostRecentScore');
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
+const MAX_HIGH_SCORES = 5
 
-const MAX_HIGH_SCORES = 5;
-
-finalScore.innerText = mostRecentScore;
+finalScore.innerText = mostRecentScore
 
 username.addEventListener("keyup", () => {
-    saveScoreBtn.disabled = !username.value;
+    saveScoreBtn = username.value
 });
 
 saveHighScore = e => {
-    e.preventDefault();
+    e.preventDefault()
 
         const score = {
             score: mostRecentScore,
@@ -36,6 +33,6 @@ saveHighScore = e => {
             highScores.splice(5);
     
             localStorage.setItem ('highScores', JSON.stringify(highScores));
-            window.location.assign('index.html');
+            window.location.assign('index.html')
         }
     };
