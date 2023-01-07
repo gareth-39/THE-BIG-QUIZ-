@@ -197,7 +197,7 @@ function handleTabletChange(e) {
   if (e.matches) {
      console.log('Media Query Matched!')
   };
-}
+};
 
 startGame();
 
