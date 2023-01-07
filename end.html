@@ -12,21 +12,20 @@
     <header id="heading">
         <h1>The Big Quiz</h1>
      </header>
-    <div class="container">
+     <div class="container">
         <div id="end" class="flex-center flex-column">
             <h1 id="finalScore">0</h1>
-            <form  action="highscores.html" class="end-form-contanier">
-                <h2 id="end-text">Enter your name below to save your score</h2><br><br>
+            <form action="highscores.html" class="end-form-contanier">
+                <h2 id="end-text">Enter your name below to save your score</h2>
                 <input type="text" name="name" id="username" placeholder="Enter your name" required>
-                <p id="error"></p><br>
-                <button class="save"  id="saveScoreBtn" type="submit" 
+                <p id="error"></p>
+            <button class="btn" id="saveScoreBtn" type="submit" 
                 onclick="saveHighScore(event)">Save</button>
-               
             </form>
             <a href="game.html" class="btn">Play Again</a>
-            <a href="index.html" class="btn">Home</a>
+            <a href="index.html" class="btn">Go Home</a>
         </div>
     </div>
-    <script src="/assets/js/end.js"></script>
+    <script src="assets/js/end.js"></script>
 </body>
 </html>
