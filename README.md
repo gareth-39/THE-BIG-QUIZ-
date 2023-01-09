@@ -1,5 +1,8 @@
 # Javascript Project Number 2 - Code Institute #
 
+# #
+This is the re-submission of my original project as I failed the first attempt. I took everything on board from the assessment teams feed back and now have a fully functioning quiz.
+#
 
 
 # The Big Quiz
