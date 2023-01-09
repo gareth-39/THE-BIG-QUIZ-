@@ -200,7 +200,7 @@ continued into the settings, once in settings I proceeded into the Github pages.
 * Taken from (https://fonts.google.com/)
 
 ## Youtube:
-* Some of my code was done watching and following tutorials from (http://youtube.com/@briandesign)
+* Some of my code was done watching and following tutorials from (http://youtube.com)
 
 ## Code institute:
 * The Love Maths Project for giving me the skills and tools to be able to complete this project.(http://codeinstitute.net/).<br><br>
