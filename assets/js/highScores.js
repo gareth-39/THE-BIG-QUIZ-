@@ -1,3 +1,4 @@
+/* Highscore list page */
 const username = document.getElementById('username');
 const saveButton = document.getElementById('saveScoreBtn');
 const highScoresList = document.querySelector('#highScoresList');

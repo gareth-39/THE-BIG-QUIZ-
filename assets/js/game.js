@@ -1,4 +1,4 @@
-/* All the js for the game page*/
+/* All the javaScript for the game page*/
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
@@ -122,6 +122,7 @@ let questions = [{
     answer:   1,
     }
 ];
+
 /*Scoring marks*/
 
 const SCORE_POINTS = 100;
@@ -192,6 +193,7 @@ choices.forEach(choice => {
     scoreText.innerText = score;
 };
 
+/* Media query for tablet change */
 function handleTabletChange(e) {
  
   if (e.matches) {
@@ -199,5 +201,6 @@ function handleTabletChange(e) {
   };
 };
 
+/* Start the game */
 startGame();
 
