@@ -9,8 +9,9 @@ const MAX_HIGH_SCORES = 5
 finalScore.innerText = mostRecentScore
 
 username.addEventListener('keyup', () => {
-    saveScoreBtn = username.value;
+    saveScoreBtn = username.value
 })
+
 
 /* Save button when finished quiz */
 saveHighScore = e => {

@@ -126,46 +126,49 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 
 #
 
-#  **Code Validation** <br><br>
+
 
 
 # Javascript Results (JShint):
 * All Javascript Error free
 * Three images added for each js file<br><br>
-![JS](/assets/images/readME-images/js%201.png)
-![JS](/assets/images/readME-images/js%202.png)
-![JS](/assets/images/readME-images/js%203.png)<br><br>
+![Alt text](assets/images/js%201.png)
+![Alt text](assets/images/js%202.png)
+![Alt text](assets/images/js%203.png)<br><br>
 #
 
 
 # Lighthouse Reults
 * Four images from lighthouse:<br><br>
-![LH](/assets/images/readME-images/light%20quiz1.png)
-![LH](/assets/images/readME-images/light%20quiz%202.png)
-![LH](/assets/images/readME-images/light%20quiz%203.png)
-![LH](/assets/images/readME-images/light%20quiz%204.png)<br><br>
+![Alt text](assets/images/light%20quiz%202.png)
+![Alt text](assets/images/light%20quiz.png)
+![Alt text](assets/images/light%20quiz%204.png)
+![Alt text](assets/images/light%20quiz%203.png)<br><br>
 #
 
 
 # CSS Results (Jigsaw):
 * CSS passed on all pages<br><br>
-![CSS](/assets/images/readME-images/css.png)
-![CSS](/assets/images/readME-images/css2.png)<br><br>
+![Alt text](assets/images/css.png)
+![Alt text](assets/images/css2.png)
+<br><br>
 #
 
   
 # HTML Results (W3C Validator):
 * HTML passed on all pages<br><br>
-![HMTL](/assets/images/readME-images/quiz3.png)
-![HTML](/assets/images/readME-images/quiz4.png)
-![HTML](/assets/images/readME-images/quiz5.png)
-![HTML](/assets/images/readME-images/quiz6.png)<br><br>
+![Alt text](assets/images/html.png)
+![Alt text](assets/images/html2.png)
+![Alt text](assets/images/html3.png)
+![Alt text](assets/images/html4.png)
+<br><br>
 
 #
 
 # Am i resposive:
 * Screenshot
-![RS](/assets/images/readME-images/responsive.png)<br><br>
+![Alt text](assets/images/responsive.png)
+<br><br>
 
 #
 
@@ -174,22 +177,30 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 # Bugs and Errors:
 * Initially, my Javascript had two bugs, the first issue was in the Javascript game. When i added a highscore it returned a response of null. However, with the help of Google and Slack, I finally realised that when the user pressed save, the option was disabled. Nevertheless, this issue was remedied easily as I just enabled the save button.
 
-* The second issue was that my CSS file was different on all pages and I coudnt understand why. So, thanks to my mentor who helped me to recognise that I had forgotten to link my CSS file to each page in my HTML files.<br><br>
+* The second issue was that my CSS file was different on all pages and I coudnt understand why. So, thanks to my mentor who helped me to recognise that I had forgotten to link my CSS file to each page in my HTML files.
+
+* I also made a big mistake, I sent mt project to the assessment team unfinished as all my links were broken a mistake I realised as soon as I submitted the project. It was fixable but a mistake I should not have made. It was a learning moment to check all work vigorously.
+
+
+
+
+
+
+<br><br>
 
 #
 
 # User Stories:
 * Below is screenshots of my finished project
-![fp](/assets/images/readME-images/finish%201.png)
-![fp](/assets/images/readME-images/finish%202.png)
-![fp](/assets/images/readME-images/finish%203.png)
-![fp](/assets/images/readME-images/finish%204.png)<br><br>
+![Alt text](assets/images/finished1.png)
+![Alt text](assets/images/finish%202.png)
+![Alt text](assets/images/finish%203.png)
+)<br><br>
 
 #
 
 # Deployment:
-* To deploy my project, I went to Github and entered my "The-Big-Quiz repository". Then, I
-continued into the settings, once in settings I proceeded into the Github pages. Once in Github, I deployed from a branch and then used a main branch and pressed save. Then, I copied my Github.io link and pasted it into my readME.md file.
+* To deploy my project, I went to Github and entered my "The-Big-Quiz repository". Then, I continued into the settings, once in settings I proceeded into the Github pages. Once in Github pages, I deployed from a branch and then used a main branch and pressed save. Then, I copied my Github.io link and pasted it into my readME.md file.
 
 
 # Credits:
