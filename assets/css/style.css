@@ -26,6 +26,20 @@ body {
     background-color: blue;
 }
 
+#play {
+    height: 3rem;
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    width: 10rem;
+    color: yellow;
+    background-color: blue;
+    border-style: solid;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+    
+
+
 h1 {
     font-size: 6.4rem;
     color: blue;
