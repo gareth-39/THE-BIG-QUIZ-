@@ -22,20 +22,27 @@ body {
 }
 #click {
     color: yellow;
-    padding: 0;
-    background-color: blue;
+    font-size: 2.5rem;
 }
 
-#play {
-    height: 3rem;
-    font-size: 1.5rem;
-    padding: 2rem 0;
-    width: 10rem;
+.audio-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
     color: yellow;
-    background-color: blue;
-    border-style: solid;
+    background: blue;
     cursor: pointer;
-    transform: scale(1.02);
+    width: 6rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: #000;
+    box-shadow: 0 0.4rem 1.5rem 0 rgb(255,214,94);
 }
     
 

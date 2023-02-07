@@ -193,6 +193,55 @@ choices.forEach(choice => {
     scoreText.innerText = score;
 };
 
+/* Media query for tablet change */
+function handleTabletChange(e) {
+ 
+  if (e.matches) {
+     console.log('Media Query Matched!')
+  };
+};
+
+/* Start the game */
+startGame();
+
+// Audio settings
+let music = "off";
+const quizAudio = new Audio('assets/sounds/mixkit-tick-tock-clock-timer-1045.wav');
+
+
+quizAudio.loop = true;
+
+function whichMusic() { // Ability to play or pause audio to enhance experience on entering the quiz site
+
+    if (music === "on") {
+        quizAudio.play();
+    } else {
+        (music = "off")
+        quizAudio.pause();
+    }
+}
+
+function checkAudioButtons() {
+    if (music === "on") {
+        document.getElementById("audio").innerHTML = `<i class="fas fa-volume-mute"></i><br>Audio off`; // Changes the text of the button once clicked
+    } else {
+        document.getElementById("audio").innerHTML = `<i class="fas fa-volume-up"></i><br>Audio on`; // Changes the text of the button once clicked
+    }
+}
+
+// So that the user can toggle the music off or on
+function toggleMusic() { 
+    if (music === "off") {
+        music = "on";
+    } else {
+        music = "off";
+    }
+    checkAudioButtons();
+    whichMusic();
+}
+
+
+// Countdown timer
 class Timer {
     constructor(root) {
       root.innerHTML = Timer.getHTML();
@@ -288,53 +337,4 @@ class Timer {
       document.querySelector(".timer")
   );
 
-
-
-/* Media query for tablet change */
-function handleTabletChange(e) {
- 
-  if (e.matches) {
-     console.log('Media Query Matched!')
-  };
-};
-
-/* Start the game */
-startGame();
-
-let music = "off";
-const quizAudio = new Audio('assets/sounds/mixkit-tick-tock-clock-timer-1045.wav');
-
-
-// Audio settings
-// Toggle
-
-quizAudio.loop = true;
-
-function whichMusic() { // Ability to play or pause audio to enhance experience on entering the quiz site
-
-    if (music === "on") {
-        quizAudio.play();
-    } else {
-        (music = "off")
-        quizAudio.pause();
-    }
-}
-
-function checkAudioButtons() {
-    if (music === "on") {
-        document.getElementById("audio").innerHTML = `<i class="fas fa-volume-mute"></i><br>Audio off`; // Changes the text of the button once clicked
-    } else {
-        document.getElementById("audio").innerHTML = `<i class="fas fa-volume-up"></i><br>Audio on`; // Changes the text of the button once clicked
-    }
-}
-
-function toggleMusic() { // So that the user can toggle the music off or on
-    if (music === "off") {
-        music = "on";
-    } else {
-        music = "off";
-    }
-    checkAudioButtons();
-    whichMusic();
-}
 

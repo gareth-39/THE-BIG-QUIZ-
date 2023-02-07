@@ -1,4 +1,4 @@
-/* Game page css*/
+/* Game page body*/
 
 body {
     color: yellow;
@@ -7,11 +7,11 @@ body {
 }
 
 
-  
+  /* countdown timer*/
+
   .timer {
     font-family: sans-serif;
     display: inline-block;
-    
     border-radius: 30px;
     
   }
@@ -40,7 +40,8 @@ body {
     background: yellow;
   }
   
-
+ /* Game questions*/
+ 
 .game-container {
     width: 100vw;
     display: flex;
@@ -129,12 +130,12 @@ body {
 
 /*Home button css*/
 
-.home-btn {
+.home-now {
     width: 15rem;
     height: 3rem;
     padding-bottom: 5.5rem;
-    
-  
+    color: yellow;
+    background-color: blue;
 }
 
 #click {
