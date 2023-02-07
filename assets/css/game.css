@@ -6,13 +6,15 @@ body {
     overflow: hidden;
 }
 
-
   /* countdown timer*/
 
   .timer {
     font-family: sans-serif;
     display: inline-block;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
   }
   
@@ -23,7 +25,7 @@ body {
   
   .timer__btn {
     width: 50px;
-    height: 50px;
+    height: 20px;
     margin-left: 16px;
     border-radius: 50%;
     border: none;
@@ -130,24 +132,23 @@ body {
 
 /*Home button css*/
 
-.home-now {
+.home-btn {
     width: 15rem;
     height: 3rem;
-    padding-bottom: 5.5rem;
     color: yellow;
-    background-color: blue;
+    background: blue;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    padding-bottom: 0%;
 }
+    
 
 #click {
     color: yellow;
     font-size: 2.5rem;
 }
 
-.audio-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .button {
     color: yellow;
@@ -156,6 +157,8 @@ body {
     width: 6rem;
     font-size: 0.9rem;
     border-radius: 5px;
+    margin-left: 1215px;
+    padding-bottom: 0%;
 }
 
 .button:hover {
