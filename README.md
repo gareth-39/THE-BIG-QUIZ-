@@ -30,6 +30,8 @@ https://github.com/gareth-39<br><br>
 * The overall goal
 * Requirements
 * Design
+* Audio file
+* Countdown Timer
 * Functionality
 * Testing
 * Code validator
