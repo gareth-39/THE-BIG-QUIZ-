@@ -4,7 +4,8 @@ const quizAudio = new Audio("assets/sounds/game-show.mp3.wav");
 
 quizAudio.loop = true;
 
-function whichMusic() { // Ability to play or pause audio to enhance experience on entering the quiz site
+// Play or pause audio to enhance experience on entering the quiz site
+function whichMusic() {
 
     if (music === "on") {
         quizAudio.play();

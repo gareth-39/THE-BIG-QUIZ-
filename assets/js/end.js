@@ -38,13 +38,15 @@ saveHighScore = e => {
         }
 };
 
+/* For audio on the end page */
 let music = "off";
 const quizAudio = new Audio("assets/sounds/end.mp3.wav");
 
 
 quizAudio.loop = true;
 
-function whichMusic() { // Ability to play or pause audio to enhance experience on entering the quiz site
+// Play or pause audio to enhance experience on entering the quiz site
+function whichMusic() {
 
     if (music === "on") {
         quizAudio.play();
