@@ -5,23 +5,22 @@ This is the re-submission of my original project as I failed the first attempt. 
 #
 
 
-# The Big Quiz
+# The Big Quiz:
+- Main image:
+![Alt text](assets/images/finish%203.png)<br><br>
+#
 
 # Opening Summary:
 * Thank you for viewing my Second project, I look forward to receiving your feedback. This is a link to my github profile.<br><br>
 https://github.com/gareth-39<br><br>
 
 * A link to my live site.<br><br>
-
- <br><br>
- - Main image:
-![Alt text](assets/images/finish%203.png)
-
- #
-
+https://gareth-39.github.io/THE-BIG-QUIZ-/
+<br><br>
  
+#
 
- # Table of Contents:
+# Table of Contents:
 * Purpose
 * My idea
 * My quiz
