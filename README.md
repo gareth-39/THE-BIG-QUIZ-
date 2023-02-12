@@ -12,7 +12,7 @@ This is the re-submission of my original project as I failed the first attempt. 
 https://github.com/gareth-39<br><br>
 
 * A link to my live site.<br><br>
- https://gareth-39.github.io/The-Big-Quiz/<br><br>
+ <br><br>
 
  #
 
@@ -132,9 +132,11 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 # Javascript Results (JShint):
 * All Javascript Error free
 * Three images added for each js file<br><br>
-![Alt text](assets/images/js%201.png)
-![Alt text](assets/images/js%202.png)
-![Alt text](assets/images/js%203.png)<br><br>
+![Alt text](assets/images/Home.js.png)
+![Alt text](assets/images/Game.js.png)
+![Alt text](assets/images/Highscore.js.png)
+![Alt text](assets/images/End.js.png)
+<br><br>
 #
 
 
@@ -167,7 +169,7 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 
 # Am i resposive:
 * Screenshot
-![Alt text](assets/images/responsive.png)
+
 <br><br>
 
 #
@@ -193,7 +195,7 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 # User Stories:
 * Below is screenshots of my finished project
 ![Alt text](assets/images/finished1.png)
-![Alt text](assets/images/finish%202.png)
+![Alt text](assets/images/Finished%202.png)
 ![Alt text](assets/images/finish%203.png)
 )<br><br>
 
@@ -211,7 +213,12 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 * Taken from (https://fonts.google.com/)
 
 ## Youtube:
-* Some of my code was done watching and following tutorials from (http://youtube.com)
+* Some of my code was done watching and following tutorials from (https://www.youtube.com/@briandesign)
+
+
+## Audio
+this is the site i used for my audio files
+(https://mixkit.co/)
 
 ## Code institute:
 * The Love Maths Project for giving me the skills and tools to be able to complete this project.(http://codeinstitute.net/).<br><br>
