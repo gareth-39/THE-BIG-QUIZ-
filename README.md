@@ -7,14 +7,18 @@ This is the re-submission of my original project as I failed the first attempt. 
 
 # The Big Quiz
 
-# Opening Summary ;
+# Opening Summary:
 * Thank you for viewing my Second project, I look forward to receiving your feedback. This is a link to my github profile.<br><br>
 https://github.com/gareth-39<br><br>
 
 * A link to my live site.<br><br>
- <br><br>
 
+ <br><br>
+ - Main image:
+![Alt text](assets/images/finish%203.png)
  #
+
+ 
 
  # Table of Contents:
 * Purpose
@@ -114,6 +118,18 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 - I used big boxes throughout so that users could continuously see what te cursor was doing.
 #
 
+# Audio:
+- Audio was added to each page to show more custom js.  All pages has its own audio file that a user can click on and off as they would like. Here are the audio files that were added.
+
+#
+
+
+# Countdown Timer:
+- An interactive countdown timer was added to the game page. The user can enter their own time limit to test themselfs against the timer ans gradually bringing their time down.
+
+
+
+
 # Functionality
 * All buttons and links have been hovered over and clicked on to ensure accessibility.
 * All pages load correctly across all device screen sizes (Please see testing section).
@@ -169,10 +185,8 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 
 # Am i resposive:
 * Screenshot
-
+![Alt text](assets/images/Responsive.png)
 <br><br>
-
-#
 
 
 #
@@ -182,12 +196,6 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 * The second issue was that my CSS file was different on all pages and I coudnt understand why. So, thanks to my mentor who helped me to recognise that I had forgotten to link my CSS file to each page in my HTML files.
 
 * I also made a big mistake, I sent mt project to the assessment team unfinished as all my links were broken a mistake I realised as soon as I submitted the project. It was fixable but a mistake I should not have made. It was a learning moment to check all work vigorously.
-
-
-
-
-
-
 <br><br>
 
 #
@@ -197,6 +205,7 @@ The quiz was created to show my programming knowledge of Javascript, HTML and CS
 ![Alt text](assets/images/finished1.png)
 ![Alt text](assets/images/Finished%202.png)
 ![Alt text](assets/images/finish%203.png)
+![Alt text](assets/images/readME-images/finish%204.png)
 )<br><br>
 
 #
@@ -225,9 +234,9 @@ this is the site i used for my audio files
 
 #
 ## Programmes Used
-- HTML5
-- CSS3
-- Javascript 
+- HTML 21.3%
+- CSS 22.0%
+- Javascript 42.2%
 #
 
 ## My Thanks to:
